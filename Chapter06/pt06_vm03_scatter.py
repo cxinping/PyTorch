@@ -4,7 +4,7 @@ import numpy as np
 vis = Visdom()
 
 # 2D scatterplot with custom intensities (red channel)
-viz.scatter(
+vis.scatter(
     X =  np.random.rand(255, 2),
     Y = (np.random.randn(255) > 0) + 1 ,
 	opts=dict(
