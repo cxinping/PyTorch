@@ -1,4 +1,4 @@
 from visdom import Visdom
 
 vis = Visdom()
-print(help( vis.image  ) )
+print(help( vis.scatter  ) )
