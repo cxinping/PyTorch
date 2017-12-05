@@ -1,4 +1,4 @@
 from visdom import Visdom
 
-viz = Visdom()
-print(help( viz.image  ) )
+vis = Visdom()
+print(help( vis.image  ) )

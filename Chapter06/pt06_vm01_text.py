@@ -1,4 +1,4 @@
 from visdom import Visdom
 
-viz = Visdom()
-viz.text('Hello, world !')
+vis = Visdom()
+vis.text('Hello, world !')
