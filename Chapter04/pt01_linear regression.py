@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from torch.autograd import Variable
 
-
 # Hyper Parameters
 input_size = 1
 output_size = 1
