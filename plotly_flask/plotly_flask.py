@@ -14,6 +14,7 @@ def index():
     context['line_graph'] = chart.line_graph()
     context['pie_graph'] = chart.pie_graph()
     context['twoline_graph'] = chart.twoline_graph()
+    
     return render_template("chars.html", title='Home', context=context)
 
 
