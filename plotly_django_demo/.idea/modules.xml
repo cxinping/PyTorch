@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/zw_own/MyPlotlyBook/刘赣plotly_and_django/plotly_and_django/.idea/plotly_and_django.iml" filepath="D:/zw_own/MyPlotlyBook/刘赣plotly_and_django/plotly_and_django/.idea/plotly_and_django.iml" />
+      <module fileurl="file://D:/zw_own/MyPlotlyBook/Chapter07/plotly_and_django2/.idea/plotly_and_django2.iml" filepath="D:/zw_own/MyPlotlyBook/Chapter07/plotly_and_django2/.idea/plotly_and_django2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/plotly_django_demo.iml" filepath="$PROJECT_DIR$/.idea/plotly_django_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../plotly_flask/.idea/plotly_flask.iml" filepath="$PROJECT_DIR$/../plotly_flask/.idea/plotly_flask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xinyi/.idea/xinyi.iml" filepath="$PROJECT_DIR$/../xinyi/.idea/xinyi.iml" />
+    </modules>
+  </component>
+</project>
