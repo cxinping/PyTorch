@@ -1,7 +1,6 @@
 from flask import render_template
 from flask import Flask
 
-
 import plotly as py
 import plotly.graph_objs as go
 

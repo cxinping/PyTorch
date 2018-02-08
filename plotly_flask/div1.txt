@@ -4,4 +4,4 @@
 
 在plotly_and_django目录下新建文件夹static，拷贝plotly.min.js(笔者python环境目录为：d:\Anaconda3\Lib\site-packages\plotly\package_data\plotly.min.js)到static。目录结构如下：
 
-
+http://127.0.0.1:5000/
