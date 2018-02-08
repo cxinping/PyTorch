@@ -30,7 +30,7 @@ def index():
     )
 
     fig = go.Figure(data=data, layout=layout)
-    div = pyplt(fig, output_type='div', auto_open=False, show_link=False)
+    div = pyplt(fig, output_type='div', include_plotlyjs=False, auto_open=False, show_link=False)
     context = {}
     context['graph'] = div
 

@@ -41,7 +41,7 @@ class Chart_Plot:
         # Figure
         figure = go.Figure(data=Data, layout=layout)
 
-        div = pyplt(figure, output_type='div', auto_open=False, show_link=False)
+        div = pyplt(figure, output_type='div', include_plotlyjs=False, auto_open=False, show_link=False)
         return div
 
     def line_graph(self):
@@ -87,7 +87,7 @@ class Chart_Plot:
                       )
         fig = dict(data=data, layout=layout)
 
-        div = pyplt(fig, output_type='div', auto_open=False, show_link=False)
+        div = pyplt(fig, output_type='div', include_plotlyjs=False, auto_open=False, show_link=False)
         return div
 
     def pie_graph(self):
@@ -102,7 +102,7 @@ class Chart_Plot:
             title='基金资产配置比例图',
         )
         fig = go.Figure(data=trace, layout=layout)
-        div = pyplt(fig, output_type='div', auto_open=False, show_link=False)
+        div = pyplt(fig, output_type='div', include_plotlyjs=False, auto_open=False, show_link=False)
         return div
 
     def twoline_graph(self):
@@ -128,5 +128,5 @@ class Chart_Plot:
 
         fig = dict(data=trace, layout=layout)
 
-        div = pyplt(fig, output_type='div', auto_open=False, show_link=False)
+        div = pyplt(fig, output_type='div', include_plotlyjs=False, auto_open=False, show_link=False)
         return div
