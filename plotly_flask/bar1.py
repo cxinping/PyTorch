@@ -41,7 +41,9 @@ def index():
     # Figure
     figure = go.Figure(data = Data, layout = layout)
     
-    div = pyplt(figure, output_type='div', auto_open=False, show_link=False)
+    #div = pyplt(figure, output_type='div', auto_open=False, show_link=False)
+    div = pyplt(figure, output_type='div', include_plotlyjs=False, auto_open=False, show_link=False)
+     
     context = {}
     context['graph'] = div
 
