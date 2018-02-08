@@ -33,6 +33,11 @@ def index():
     div = pyplt(fig, output_type='div', auto_open=False, show_link=False)
     context = {}
     context['graph'] = div
+
+    import sys
+    print('参数div占用内存大小为 %d bytes'%sys.getsizeof(div))
+    with open('div1.txt', 'w') as file:
+        file.write(div)
         
     return render_template("index.html",
         title = 'Home',
